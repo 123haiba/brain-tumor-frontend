@@ -57,5 +57,5 @@ npm run build
 
 Watch the live demo of our Brain Tumor Classification project:
 
-[![Watch the demo](https://img.youtube.com/vi/ZaLzGtfjf5A/0.jpg)](https://www.youtube.com/watch?)
+🔗 [Brain Tumor Classification – Watch Demo](https://drive.google.com/file/d/1ZaifOTN7Mwp7TAnl8kph2hw0F9Nt7pYg/view)
 
