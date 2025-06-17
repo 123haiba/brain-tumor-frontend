@@ -31,4 +31,17 @@ It provides an interface to:
 - 📊 View history of previous predictions
 - 🔒 Simple authentication for users
 
-- 
+  🚀 Getting Started
+🛠 Installation
+
+Install the project dependencies using npm
+
+npm run dev
+👨‍💻 Development
+
+Start the development server with hot module replacement (HMR)
+npm run dev
+🏗 Building for Production
+
+To create a production-ready build
+npm run build
