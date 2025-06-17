@@ -1,13 +1,34 @@
-# React + Vite
+# 🧠 Brain Tumor Classification (Graduation Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a frontend web application built with **React + Vite** for classifying brain tumors using deep learning results.
 
-Currently, two official plugins are available:
+It provides an interface to:
+- Upload brain scan images.
+- View tumor classification results.
+- Visualize prediction confidence.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Objectives
 
-## Expanding the ESLint configuration
+- Build a user-friendly interface for classifying brain tumor MRI images.
+- Provide fast and accurate predictions using a backend AI model.
+- Display detailed classification results (e.g., benign, malignant).
+- Help medical professionals in early diagnosis support.
+- Enable students and researchers to understand brain tumor image classification
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# brain-ai" 
+- ## 🧑‍⚕️ Who Can Benefit from This?
+
+- Medical students & radiology interns
+- AI/ML researchers in the medical imaging field
+- Hospitals seeking prototype solutions
+- Graduation project reviewers
+
+- ## 🚀 Features
+
+- ⚛️ Built with React
+- 🌈 Animated, responsive design
+- 📤 Upload and preview brain MRI images
+- 🔄 Display prediction results clearly
+- 📊 View history of previous predictions
+- 🔒 Simple authentication for users
+
+- 
