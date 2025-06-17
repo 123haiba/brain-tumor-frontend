@@ -52,3 +52,10 @@ npm run dev
 To create a production-ready build
 
 npm run build
+
+## 🎥 Demo Video
+
+Watch the live demo of our Brain Tumor Classification project:
+
+[![Watch the demo](https://img.youtube.com/vi/ZaLzGtfjf5A/0.jpg)](https://www.youtube.com/watch?)
+
