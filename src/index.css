@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #0a174e;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #1b274e 40%, #3a8dde 100%);
+  border-radius: 8px;
+  border: 2px solid #b5c9d3;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #3a8dde 0%, #1b274e 100%);
+}
+::-webkit-scrollbar-corner {
+  background: #0a174e;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #3a8dde #0a174e;
+}
+
+@theme {
+  --color-primary: #3a8dde;
+  --color-greentext: #0dff0d;
+  --color-greenback: #079f07;
+  --color-greenbackhover: #079f07e5;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-in-right {
+  animation: fadeInRight 0.8s ease-out forwards;
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.8s ease-out forwards;
+}
